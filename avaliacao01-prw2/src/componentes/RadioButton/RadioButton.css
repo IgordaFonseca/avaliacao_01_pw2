@@ -1,0 +1,29 @@
+.radio-button {
+  margin: 24px 0;
+}
+
+.radio-button > label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+/* Container das opções */
+.radio-button div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+/* Input radio */
+.radio-button input {
+  margin-right: 8px;
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+/* Label das opções */
+.radio-button div label {
+  font-size: 20px;
+  cursor: pointer;
+}

@@ -12,13 +12,12 @@ const Formulario = (props) => {
     "Games",
     "Gadjets",
   ];
-  const marcas = ["Huawei", "HP", "Del", "Corsair", "Stean"];
+  const marcas = ["Huawei", "HP", "Dell", "Corsair", "Steam"];
 
   const [nome, setNome] = useState("");
   const [preco, setPreco] = useState("");
-  //const [imagem, setImagem] = useState('')
   const [secaoLoja, setSecaoLoja] = useState("Computadores");
-  const [marca, setMarca] = useState("Hwawei");
+  const [marca, setMarca] = useState("Huawei");
   const [condicaoProduto, setCondicaoProduto] = useState("");
 
   const aoSalvar = (evento) => {

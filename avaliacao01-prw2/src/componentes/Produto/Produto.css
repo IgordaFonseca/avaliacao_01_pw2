@@ -1,0 +1,23 @@
+.produto {
+  margin: 24px 0;
+  padding: 24px;
+  background-color:lightgray;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.produto h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.produto p {
+  font-size: 20px;
+  margin: 8px 0;
+}
+.produto strong {
+  font-weight: 600;
+}
+.produto img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 16px;
+}
